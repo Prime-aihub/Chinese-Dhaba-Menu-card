@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhaba Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="menu-theme">
+
+<header>
+    <h1>Chinese Dhaba Menu</h1>
+    <button id="themeBtn">Switch Theme</button>
+</header>
+
+<div class="tabs">
+    <button class="tab active" onclick="showTab('veg')">Veg</button>
+    <button class="tab" onclick="showTab('nonveg')">Non-Veg</button>
+</div>
+
+<div id="veg" class="menu-section">
+    <!-- Example Veg Dishes -->
+</div>
+
+<div id="nonveg" class="menu-section hidden">
+    <!-- Example Non-Veg Dishes -->
+</div>
+
+<footer>
+    <p>Total: ₹<span id="totalPrice">0</span> | Items: <span id="totalQty">0</span></p>
+    <p class="note">Within 1–2 km free delivery. Outside areas additional delivery charges.</p>
+    <button id="whatsappBtn">Submit Order via WhatsApp</button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
